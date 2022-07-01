@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#components-table-demo-drag-sorting tr.drop-over-downward td {
+  border-bottom: 2px dashed #1899ff;
+}
+#components-table-demo-drag-sorting tr.drop-over-upward td {
+  border-bottom: 2px dashed #1899ff;
+}
+
+/* иконка сортировки рядом с наименованием */
+.ant-table-column-sorters {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
